@@ -1,0 +1,8 @@
+.idea/*
+.idea/**
+.DS_Store
+*.nii
+**/*.nii
+exp-focused/*.nii
+exp-focused/mask folder/*.nii
+exp-focused/.DS_Store
