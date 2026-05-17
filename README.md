@@ -11,7 +11,7 @@ This script provides automated post-processing and reporting for Focused Ultraso
 
 The script analyzes the pressure and temperature fields simulated by kPlan, calculates focal zone targeting metrics, and generates the following mandatory outputs:
 
-1.  **ROI Figures:** A 3-plane view (Axial, Coronal, Sagittal) showing the focal zones overlaid on your specific targets (`sgACC_L` and `sgACC_R`).
+1.  **ROI Figure:** A 3-plane view (Axial, Coronal, Sagittal) showing the focal zones overlaid on your specific targets (`sgACC_L` and `sgACC_R`).
 2.  **Pressure Map:** Color-coded cross-sections cutting directly through the global peak pressure voxel, complete with structured tissue boundary outlines.
 3.  **Temperature Map:** High-resolution visualization extracting peak temperature distributions across different anatomical structures.
 4.  **-3dB & -6dB Focus Overlap Metrics:** Exact volumes ($mm^3$) and percentages (%) showing how much of the ultrasound focus successfully overlaps with the `sgACC` masks. (-3dB: high-intensity core, -6dB: full focal zone surrounding ROI).
